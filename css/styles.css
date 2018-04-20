@@ -32,10 +32,11 @@
 }
 
 .header .menu{
-    margin-left:225px;
+    margin-left:175px;
     height:40px;
     vertical-align: top;
     line-height: 40px;
+    font-weight: bold;
 }
 
 .header .menu a{
@@ -131,4 +132,5 @@
     height:60px;
     background-color: #38b0ad;
     line-height: 60px;
+    font-size:12px;
 }
