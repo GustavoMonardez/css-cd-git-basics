@@ -14,6 +14,7 @@
 .header{
     background-color: #38b0ad;
     padding:10px;
+    margin-bottom:15px;
 }
 
 .header div{
@@ -41,4 +42,34 @@
     color:white;
     margin-right: 10px;
     font-size:12px;
+}
+
+.main-content{
+    background-color: #fbe691;
+    color:white;
+    padding:15px;
+}
+
+.main-content div{
+    background-color:#153f43;
+}
+
+.main-content a{
+    text-decoration: none;
+    color:#4ddccb;
+}
+
+.main-content .side-bar{
+    display: inline-block;
+    width:220px;
+    padding:15px 8px 15px 8px;
+}
+
+.main-content .side-bar h2{
+    font-weight: normal;
+}
+
+.main-content .side-bar p{
+    font-size: 14px;
+    padding:10px;
 }
