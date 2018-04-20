@@ -50,10 +50,6 @@
     padding:15px;
 }
 
-.main-content div{
-    background-color:#153f43;
-}
-
 .main-content a{
     text-decoration: none;
     color:#4ddccb;
@@ -63,6 +59,7 @@
     display: inline-block;
     width:220px;
     padding:15px 8px 15px 8px;
+    background-color:#153f43;
 }
 
 .main-content .side-bar h2{
@@ -72,4 +69,66 @@
 .main-content .side-bar p{
     font-size: 14px;
     padding:10px;
+}
+
+.main-content .sub-content{
+    display: inline-block;
+    vertical-align: top;
+    width:665px;
+    margin-left:30px;
+}
+
+.main-content .sub-content div{
+    padding:10px 10px 20px 10px;
+}
+
+.main-content .sub-content h3{
+    font-weight:normal;
+    margin-bottom:10px;
+}
+
+.main-content .sub-content p{
+    font-size: 14px;
+    padding:0px 10px 0px 10px;
+}
+
+.main-content .sub-content .sub-content-top div,
+.main-content .sub-content .sub-content-middle div,
+.main-content .sub-content .sub-content-bottom div{
+    background-color:#153f43;
+}
+
+.main-content .sub-content .sub-content-top div{
+    display: inline-block;
+    vertical-align: top;
+    width:160px;
+    height:133px;
+}
+
+.main-content .sub-content .sub-content-top{
+    padding-top:0px;
+}
+.main-content .sub-content .sub-content-middle div{
+    width:273px;
+    display: inline-block;
+}
+
+.main-content .sub-content .add{
+    margin:0px 40px 0px 40px;
+}
+
+.main-content .sub-content .remote{
+    margin-left:40px;
+}
+
+.main-content .sub-content .sub-content-bottom div{
+    width:613px;
+}
+
+.footer{
+    margin-top:8px;
+    text-align: center;
+    height:60px;
+    background-color: #38b0ad;
+    line-height: 60px;
 }
